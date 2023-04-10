@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Practicing nodejs and javascript based on the beecrowd platform challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicollycds/practicing-nodejs-and-javascript.git"
+  },
+  "author": "nicolly carias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicollycds/practicing-nodejs-and-javascript/issues"
+  },
+  "homepage": "https://github.com/Nicollycds/practicing-nodejs-and-javascript#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

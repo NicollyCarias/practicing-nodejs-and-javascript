@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>10/10</span>
+                <span class='fraction'>0/10</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>0/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>10/10</span>
+                <span class='fraction'>0/10</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -102,28 +102,28 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
 &nbsp;
@@ -133,28 +133,28 @@
 // Saída
 // Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 &nbsp;
-const readline = require('readline');
+const readline = <span class="cstat-no" title="statement not covered" >require('readline');</span>
 &nbsp;
-function somarValores() {
-  const rl = readline.createInterface({
+function <span class="fstat-no" title="function not covered" >somarValores(</span>) {
+  const rl = <span class="cstat-no" title="statement not covered" >readline.createInterface({</span>
     input: process.stdin,
     output: process.stdout
   });
 &nbsp;
   let a, b;
 &nbsp;
-  rl.question('', input =&gt; {
-    a = parseInt(input);
-    rl.question('', input =&gt; {
-      b = parseInt(input);
-      const soma = a + b;
-      console.log(`SOMA = ${soma}`);
-      rl.close();
+<span class="cstat-no" title="statement not covered" >  rl.question('', <span class="fstat-no" title="function not covered" >in</span>put =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    a = parseInt(input);</span>
+<span class="cstat-no" title="statement not covered" >    rl.question('', <span class="fstat-no" title="function not covered" >in</span>put =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      b = parseInt(input);</span>
+      const soma = <span class="cstat-no" title="statement not covered" >a + b;</span>
+<span class="cstat-no" title="statement not covered" >      console.log(`SOMA = ${soma}`);</span>
+<span class="cstat-no" title="statement not covered" >      rl.close();</span>
     });
   });
 }
 &nbsp;
-module.exports = somarValores;
+<span class="cstat-no" title="statement not covered" >module.exports = somarValores;</span>
 &nbsp;
 &nbsp;</pre></td></tr></table></pre>
 
@@ -163,7 +163,7 @@ module.exports = somarValores;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Mon Apr 17 2023 10:52:21 GMT-0300 (Brasilia Standard Time)
+                at Tue Apr 25 2023 08:58:24 GMT-0300 (Brasilia Standard Time)
             </div>
         <script src="prettify.js"></script>
         <script>

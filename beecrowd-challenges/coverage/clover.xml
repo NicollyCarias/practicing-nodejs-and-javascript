@@ -1,43 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681739541734" clover="3.2.0">
-  <project timestamp="1681739541734" name="All files">
-    <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="31" coveredelements="31" complexity="0" loc="25" ncloc="25" packages="1" files="4" classes="4"/>
+<coverage generated="1682423904399" clover="3.2.0">
+  <project timestamp="1682423904399" name="All files">
+    <metrics statements="49" coveredstatements="5" conditionals="28" coveredconditionals="8" methods="10" coveredmethods="2" elements="87" coveredelements="15" complexity="0" loc="49" ncloc="49" packages="1" files="7" classes="7"/>
+    <file name="Bhaskara.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/Bhaskara.js">
+      <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="17" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
     <file name="Circle.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/Circle.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+    </file>
+    <file name="intervalo.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/intervalo.js">
+      <metrics statements="10" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="14" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
     </file>
     <file name="media.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/media.js">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="12" count="3" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+    </file>
+    <file name="selecao.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/selecao.js">
+      <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="12" count="4" type="cond" truecount="8" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
       <line num="15" count="3" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
     </file>
     <file name="somarValores.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/somarValores.js">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
+      <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
     </file>
     <file name="sum.js" path="/home/nicolly/Documents/REPOSITORIOS/capacitação-nodejs/practicing-nodejs-and-javascript/beecrowd-challenges/src/sum.js">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="11" count="5" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
